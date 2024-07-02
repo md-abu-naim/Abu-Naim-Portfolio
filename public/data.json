@@ -1,0 +1,42 @@
+[
+    {
+        "name": "React.JS",
+        "image": "https://i.postimg.cc/J4CHsTDw/React-icon-svg.png"
+    },
+    {
+        "name": "Node.JS",
+        "image": "https://i.postimg.cc/8k6rP8CB/tailwind.png"
+    },
+    {
+        "name": "Express.JS",
+        "image": "https://i.postimg.cc/523zdw2h/express-js.png"
+    },
+    {
+        "name": "MongoDB",
+        "image": "https://i.postimg.cc/cCwKD3z5/mongodb.webp"
+    },
+    {
+        "name": "JWT",
+        "image": "https://i.postimg.cc/cHKtn2BW/jwt.png"
+    },
+    {
+        "name": "Firebase",
+        "image": "https://i.postimg.cc/Zqsy043j/firebase.png"
+    },
+    {
+        "name": "JavaSript",
+        "image": "https://i.postimg.cc/FKHL97f7/javascript-logo.png"
+    },
+    {
+        "name": "Tailwind.CSS",
+        "image": ""
+    },
+    {
+        "name": "CSS",
+        "image": "https://i.postimg.cc/P5hDR6Tb/css3.png"
+    },
+    {
+        "name": "HTML5",
+        "image": "https://i.postimg.cc/0QLMdnVw/HTML5-shield.png"
+    }
+]
