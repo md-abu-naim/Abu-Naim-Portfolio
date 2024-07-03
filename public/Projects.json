@@ -1,0 +1,67 @@
+[
+    {
+        "name": "ScholarHub",
+        "image": "https://i.postimg.cc/g2W7ksSJ/scholar-Hub.png",
+        "url": "https://scholarhub-98ad5.web.app/",
+        "client": "https://github.com/md-abu-naim/A12-ScholarHub-Client",
+        "server": "https://github.com/md-abu-naim/A12-ScholarHub-Server",
+        "description": "A full-stack responsive website project - Time period: 10 days. My website is related to a study platform. On our website, you can find all your favorite types of Chemistry, Computer Science, Literature, Data Science, Mathematics, Economics, and more different types of study sessions,",
+        "features": ["You can see all our study sessions on My home page and click on the Ongoing button to see the complete details, and see the all reviews made by our other students, and there as a student you can book the session of your choice. Where there is a free or paid system", "My website has different types of dashboard like admin dashboard, tutor dashboard, student dashboard. The student dashboard contains all the sessions booked by the student and click on Details button to see their complete details, and as a student can make important comments about this session.", "Finally, there is the Admin dashboard where the admin can see all the users and can change the role of the user if he wants. There is also View all study sessions to add tutors from where he can Approve and Reject and set the session fee, and there is also View all materials Page."],
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "Express.js",
+            "JWT",
+            "Firebase",
+            "Tailwind.css",
+            "Tanstack query"
+        ]
+    },
+    {
+        "name": "Granny Restaurent",
+        "image": "https://i.postimg.cc/Y9WNFKjw/granny-restaurent.jpg",
+        "url": "https://granny-resturant.web.app/",
+        "client": "https://github.com/md-abu-naim/A11-Granny-Restaurent-client",
+        "server": "https://github.com/md-abu-naim/A11-Granny-Restaurent-server",
+        "description": "A full-stack responsive website project - Time period: 5 days. My website is related to a restaurant. On my website, you can find all your favorite types of pizzas, burgers, chicken, and all kinds of delicious, eco-friendly food.",
+        "features": [
+            "On the Home page of our website, there are some top selling foods and there is a button called SEE ALL FOODS, if you want, you can see all our foods from our All Foods page by clicking on that button. And there is a search bar in the title of the All Foods page from where you can find any specific food.",
+            "And you can see the complete details of each food by clicking on the DETAILS button of the food, and by filling the form given there by clicking on the Purchases button, you can purchase the desired food, and you can view each food you purchased from the MY ORDERED FOOD ITEMS page in table form.",
+            "Finally, if you want, you can add your favorite food for sale by filling out the form on our ADD A FOOD ITEM page. And specifically, the foods that you have added can be seen on the MY ADDED FOOD ITEMS page and you can update your food by clicking on the update icon given there."
+        ],
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "Express.js",
+            "JWT",
+            "Firebase",
+            "Tailwind.css",
+            "React Hook Form"
+        ]
+    },
+    {
+        "name": "MonaZila",
+        "image": "https://i.postimg.cc/Vv9j7qjG/monaZila.jpg",
+        "url": "https://monazila-852ee.web.app/",
+        "client": "https://github.com/md-abu-naim/A10-MonaZial-client",
+        "server": "https://github.com/md-abu-naim/A10-MonaZila-server",
+        "description": "A full-stack responsive website project - Time period: 3 days. This is a real estate website. This website is a full stack website related to Art & Craft. There are different types of Craft and Painting. Here you can add your favorite paintings.",
+        "features": [
+            "If you want you can add Craft Item as you want from our Add Craft Item page.",
+            "And you can see all the items you have added in the All Art & Craft Items page and from there you can see the complete details of your item by clicking the View Details button.",
+            "And every user of our website can see the added items on My Art&Craft List page and can update and delete from there."
+        ],
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "MongoDB",
+            "Express.js",
+            "JWT",
+            "Firebase",
+            "Tailwind.css",
+            "React Hook Form"
+        ]
+    }
+]
