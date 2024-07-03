@@ -1,11 +1,12 @@
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import img from '../../assets/file.png'
 
 const Banner = () => {
     return (
         <div>
-            <section className=" text-white">
+            <section className=" text-white  ">
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
-                    <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+                    <div className="flex flex-col justify-center p-6 text-center rounded-sm  lg:text-left">
                         <h1 className="md:text-3xl text-xl mt-8 md:mt-0 font-bold md:leading-[50px]">Hello! Welcome <br /> I’m <span className='text-[#C39C5D] md:text-5xl text-4xl'>ABU NAIM</span> </h1>
                         <p className="mt-4">Dictum aliquam porta in condimentum ac integer turpis pulvinar, est scelerisque ligula sem</p>
                         <div className="flex gap-4 mt-4 flex-col md:flex-row items-center justify-center lg:justify-start">
@@ -50,7 +51,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                        <img src="/src/assets/file.png" alt="" className="object-contain  h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+                        <img src={img} alt="" className="object-contain  h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
                     </div>
                 </div>
             </section>
