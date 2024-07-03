@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const Navber = () => {
 
     const links = <>
-        <li><Link to='/' className="uppercase">Skills</Link></li>
-        <li><Link to='/' className="uppercase">Projects</Link></li>
-        <li><Link to='/' className="uppercase">Study</Link></li>
-        <li><Link to='/' className="uppercase">Blogs</Link></li>
-        <li><Link to='/' className="uppercase">Testimonials</Link></li>
-        <li><Link to='/' className="uppercase">Contacts</Link></li>
+        <li><a href="#skills" className="uppercase">Skills</a></li>
+        <li><a href="#projects" className="uppercase">Projects</a></li>
+        <li><a href="#study" className="uppercase">Study</a></li>
+        <li><a href="#blogs" className="uppercase">Blogs</a></li>
+        <li><a href="#testimonial" className="uppercase">Testimonials</a></li>
+        <li><a href="#contacts" className="uppercase">Contacts</a></li>
     </>
     return (
         <div className="navbar bg-[#C39C5D] text-black md:px-16">

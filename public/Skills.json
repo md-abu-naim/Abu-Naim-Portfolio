@@ -1,23 +1,19 @@
 [
     {
-        "name": "React.JS",
+        "name": "React JS",
         "image": "https://i.postimg.cc/J4CHsTDw/React-icon-svg.png"
     },
     {
-        "name": "Node.JS",
+        "name": "Node JS",
         "image": "https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png?f=webp&w=256"
     },
     {
-        "name": "Express.JS",
+        "name": "Express JS",
         "image": "https://i.postimg.cc/523zdw2h/express-js.png"
     },
     {
         "name": "MongoDB",
         "image": "https://i.postimg.cc/cCwKD3z5/mongodb.webp"
-    },
-    {
-        "name": "JWT",
-        "image": "https://cdn.worldvectorlogo.com/logos/jwt-3.svg"
     },
     {
         "name": "Firebase",
@@ -28,23 +24,19 @@
         "image": "https://i.postimg.cc/FKHL97f7/javascript-logo.png"
     },
     {
-        "name": "Tailwind.CSS",
-        "image": "https://static-00.iconduck.com/assets.00/tailwind-css-icon-1024x615-fdeis5r1.png"
+        "name": "Tailwind CSS",
+        "image": "https://i.postimg.cc/sD8Fj3Yj/tailwindcss.png"
     },
     {
         "name": "Bootstrap",
         "image": "https://i.postimg.cc/wB4q6qPV/file.png"
     },
     {
-        "name": "CSS",
+        "name": "CSS3",
         "image": "https://img-resize-cdn.joshmartin.ch/768x0%2Cc3537b9f46b5f6055fbc8b4cd03b6b2cc63fc2eefd3d8cd9f0c9f99a5933e496/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
     },
     {
-        "name": "HTML",
+        "name": "HTML5",
         "image": "https://www.w3.org/html/logo/downloads/HTML5_Badge_256.png"
-    },
-    {
-        "name": "X",
-        "image": "https://i.postimg.cc/fTYRxhtz/file.png"
     }
 ]
