@@ -1,9 +1,29 @@
 import { FaFacebook, FaGithub, FaLinkedin, FaLocationDot } from "react-icons/fa6";
 import { MdAddCall, MdEmail } from "react-icons/md";
 import { IoMdSend } from "react-icons/io";
-
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contacts = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+          .sendForm('service_m680dx3', 'template_utpq75s', form.current, {
+            publicKey: 'wsNxWZCeFJfY8-lKH',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+              e.target.reset()
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+      };
     return (
         <div id='contacts' className="py-16 md:px-24">
             <div className=" flex items-center justify-center">
@@ -56,14 +76,14 @@ const Contacts = () => {
                 <div className="p-5 lg:border-l-2 border-[#C39C5D] text-center lg:text-start">
                     <h3 className="text-[#C39C5D] text-2xl">Let’s work together!</h3>
                     <p>I design and code beautifully simple things, and I love what I do. Just simple like that!</p>
-                    <form className="mt-4">
+                    <form ref={form} onSubmit={sendEmail} className="mt-4">
                         <div className=" ">
                             <div className="form-control w-full">
                                 <label className="label">
                                     <span className="label-text font-bold text-white">Your Name*</span>
                                 </label>
                                 <label className="input-group">
-                                    <input type="text" name="title" placeholder="Type your name" className=" text-white input input-bordered bg-[#1B1616] w-full" />
+                                    <input type="text" name="to_name" placeholder="Type your name" className=" text-white input input-bordered bg-[#1B1616] w-full" />
                                 </label>
                             </div>
                             <div className="form-control w-full">
@@ -71,7 +91,7 @@ const Contacts = () => {
                                     <span className="label-text font-bold text-white">Email*</span>
                                 </label>
                                 <label className="input-group">
-                                    <input type="email" name="email" placeholder="Your email" className="input text-white  input-bordered font-sans bg-[#1B1616] w-full" />
+                                    <input type="email" name="from_name" placeholder="Your email" className="input text-white  input-bordered font-sans bg-[#1B1616] w-full" />
                                 </label>
                             </div>
                         </div>
@@ -81,7 +101,7 @@ const Contacts = () => {
                                     <span className="label-text font-bold text-white">Description*</span>
                                 </label>
                                 <label className="input-group">
-                                    <textarea name="description" placeholder="Description" rows="5" className="border-2 p-2 rounded-md bg-[#1B1616] text-white w-full"></textarea>
+                                    <textarea name="message" placeholder="Description" rows="5" className="border-2 p-2 rounded-md bg-[#1B1616] text-white w-full"></textarea>
                                 </label>
                             </div>
                         </div>

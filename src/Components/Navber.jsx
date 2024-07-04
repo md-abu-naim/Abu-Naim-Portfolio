@@ -6,8 +6,8 @@ const Navber = () => {
         <li><a href="#skills" className="uppercase">Skills</a></li>
         <li><a href="#projects" className="uppercase">Projects</a></li>
         <li><a href="#educations" className="uppercase">Educations</a></li>
-        <li><a href="#blogs" className="uppercase">Blogs</a></li>
-        <li><a href="#testimonial" className="uppercase">Testimonials</a></li>
+        {/* <li><a href="#blogs" className="uppercase">Blogs</a></li>
+        <li><a href="#testimonial" className="uppercase">Testimonials</a></li> */}
         <li><a href="#contacts" className="uppercase">Contacts</a></li>
     </>
     return (
