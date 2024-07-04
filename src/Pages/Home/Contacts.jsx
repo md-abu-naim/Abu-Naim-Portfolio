@@ -56,14 +56,14 @@ const Contacts = () => {
                 <div className="p-5 lg:border-l-2 border-[#C39C5D] text-center lg:text-start">
                     <h3 className="text-[#C39C5D] text-2xl">Let’s work together!</h3>
                     <p>I design and code beautifully simple things, and I love what I do. Just simple like that!</p>
-                    <form className="">
+                    <form className="mt-4">
                         <div className=" ">
                             <div className="form-control w-full">
                                 <label className="label">
                                     <span className="label-text font-bold text-white">Your Name*</span>
                                 </label>
                                 <label className="input-group">
-                                    <input type="text" name="title" placeholder="Type your name" className=" text-white input input-bordered bg-gray-600 w-full" />
+                                    <input type="text" name="title" placeholder="Type your name" className=" text-white input input-bordered bg-[#1B1616] w-full" />
                                 </label>
                             </div>
                             <div className="form-control w-full">
@@ -71,7 +71,7 @@ const Contacts = () => {
                                     <span className="label-text font-bold text-white">Email*</span>
                                 </label>
                                 <label className="input-group">
-                                    <input type="email" name="email" placeholder="Your email" className="input text-white  input-bordered font-sans bg-gray-600 w-full" />
+                                    <input type="email" name="email" placeholder="Your email" className="input text-white  input-bordered font-sans bg-[#1B1616] w-full" />
                                 </label>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const Contacts = () => {
                                     <span className="label-text font-bold text-white">Description*</span>
                                 </label>
                                 <label className="input-group">
-                                    <textarea name="description" placeholder="Description" rows="5" className="border-2 p-2 rounded-md bg-gray-600 text-white w-full"></textarea>
+                                    <textarea name="description" placeholder="Description" rows="5" className="border-2 p-2 rounded-md bg-[#1B1616] text-white w-full"></textarea>
                                 </label>
                             </div>
                         </div>
