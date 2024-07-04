@@ -16,7 +16,7 @@ const ProjectDetails = () => {
     return (
         <div className="card lg:w-[1000px] border-[#C39C5D] border-t-0 border md:w-[700px] mx-auto mt-16 shadow-xl lg:space-x-14">
             <div className=" w-full text-center">
-                <figure><img className="w-[300px] border border-[#C39C5D] border-t-0 md:w-[650px] lg:w-[850px] md:h-[500px] h-full rounded-3xl" src={image} alt="Album" /></figure>
+                <figure><a href={url} target='_blank'><img className="w-[300px] border border-[#C39C5D] border-t-0 md:w-[650px] lg:w-[850px] md:h-[500px] h-full rounded-3xl" src={image} alt="Album" /></a></figure>
             </div>
             <div className="card-body">
                 <h2 className="card-title mb-5 font-bold text-3xl md:text-5xl text-[#C39C5D]">{projectName}</h2>
