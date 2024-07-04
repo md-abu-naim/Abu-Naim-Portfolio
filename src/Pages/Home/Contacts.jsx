@@ -3,6 +3,7 @@ import { MdAddCall, MdEmail } from "react-icons/md";
 import { IoMdSend } from "react-icons/io";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const Contacts = () => {
     const form = useRef();
@@ -17,6 +18,7 @@ const Contacts = () => {
           .then(
             () => {
               console.log('SUCCESS!');
+              toast.success('Email send successfully!🤩')
               e.target.reset()
             },
             (error) => {
