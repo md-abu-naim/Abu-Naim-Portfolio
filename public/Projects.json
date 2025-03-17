@@ -63,5 +63,19 @@
             "Tailwind.css",
             "React Hook Form"
         ]
+    },
+    {
+        "name": "GYM-FIT",
+        "image": "https://i.postimg.cc/P53n1ww1/gym-fit.png",
+        "url": "https://gym-fit-sigma.vercel.app/",
+        "client": "https://github.com/md-abu-naim/GYM-FIT",
+        "description": "A full-stack responsive website designed for fitness enthusiasts. This website provides a seamless experience for users to track their fitness journey, explore workout plans, and manage their personal fitness routines.",
+        "features": [
+            "A dedicated users can see all available fitness routines for more information"
+        ],
+        "technologies": [
+            "Next.js",
+            "Tailwind.css"
+        ]
     }
 ]
