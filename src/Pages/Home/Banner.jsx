@@ -18,7 +18,7 @@ const Banner = () => {
             <section className=" text-white  ">
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
                     <div className="flex flex-col justify-center p-6 text-center rounded-sm  lg:text-left">
-                        <h1 className="md:text-3xl text-xl mt-8 md:mt-0 font-bold md:leading-[50px]">Hello! Welcome <br /> I’m <span className='text-[#C39C5D] md:text-5xl text-4xl'>Abu Naim</span> </h1>
+                        <h1 className="md:text-3xl text-xl mt-8 md:mt-0 font-bold md:leading-[50px]">Hello! Welcome <br /> I’m <span className='text-[#C39C5D] md:text-5xl text-4xl uppercase'>Abu Naim</span> </h1>
                         <p className="mt-4 md:w-[550px] mx-auto ">I am Abu Naim. I am a frontend developer. I create website with my skills and expertise which will help to cool your eyes. And I also have idea about backend like Node.js Express.js MongoDB</p>
                         <div className="flex gap-4 mt-4 flex-col md:flex-row items-center justify-center lg:justify-start">
                             <div className="flex gap-4 items-center justify-center">
