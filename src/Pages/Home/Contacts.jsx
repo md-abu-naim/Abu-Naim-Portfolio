@@ -37,8 +37,8 @@ const Contacts = () => {
                         <p >I’m currently available to take on new projects, so feel free to send me a message about anything you’d like to discuss. You can contact me anytime, 24/7.</p></div>
                     <div className="flex flex-col items-center lg:items-start justify-center space-y-4 lg:justify-start">
                         <p className="flex items-center gap-2 md:text-xl"><FaLocationDot /> <span>Senbag, Noakhali, Bangladesh</span></p>
-                        <p className="flex items-center gap-2 md:text-xl"><MdEmail /> <span>farhanadnanfarabi@gmail.com</span> </p>
-                        <p className="flex items-center gap-2 md:text-xl font-sans"><MdAddCall /> <span>+8801882585833 || 01606259334</span> </p>
+                        <a href="mailto:mohammadabunaim93@gmail.com" className="flex items-center gap-2 md:text-xl"><MdEmail /> <span className="underline">mohammadabunaim93@gmail.com</span> </a>
+                        <a href="https://wa.me/+8801882585833" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 md:text-xl font-sans"><MdAddCall /> <span className="underline">+8801882585833</span> </a>
                     </div>
 
                     <h3 className="text-xl text-[#C39C5D]">Follow Me</h3>
@@ -51,8 +51,7 @@ const Contacts = () => {
                             <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
                             <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                            <span className="relative text-2xl"><FaLinkedin /></span>
-                        </a >
+                            <span className="relative text-2xl"><FaLinkedin /></span></a >
                         <a href="https://github.com/md-abu-naim" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
                             <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
                             <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
@@ -61,8 +60,7 @@ const Contacts = () => {
                             <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
                             <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                            <span className="relative text-2xl"><FaGithub /></span>
-                        </a >
+                            <span className="relative text-2xl"><FaGithub /></span></a >
                         <a href="https://www.facebook.com/farhanadnan.farabi.5" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
                             <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
                             <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
