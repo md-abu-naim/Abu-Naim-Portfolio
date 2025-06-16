@@ -34,7 +34,7 @@ const Navber = () => {
                         {links}
                     </ul>
                 </div>
-                <Link to="/" className="btn font-bold btn-ghost md:text-2xl text-xl">Naim Web Solutions</Link>
+                <Link to="/" className="btn font-bold btn-ghost md:text-2xl text-xl">ABU NAIM</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal font-bold px-1">

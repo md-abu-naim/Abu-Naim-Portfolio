@@ -7,10 +7,19 @@ const Educations = () => {
             <div className="flex  gap-2 pt-3">
                 <div className="border-t-4 border-[#C39C5D] w-16"></div>
                 <div>
-                    <h3 className="text-xl text-[#C39C5D] font-medium">Honours Last Year Certificate</h3>
+                    <h3 className="text-xl text-[#C39C5D] font-medium">M.A. (Masters) Certificate</h3>
+                    <p>AL-Jamiatul Ahliya Darul Uloom Muinul Islam</p>
+                    <p className="font-sans">2025 - 2026</p>
+                    <p>GPA: Running</p>
+                </div>
+            </div>
+            <div className="flex  gap-2 pt-3">
+                <div className="border-t-4 border-[#C39C5D] w-16"></div>
+                <div>
+                    <h3 className="text-xl text-[#C39C5D] font-medium">B.A. (Honours) Certificate</h3>
                     <p>Jamia Mohammadia Khajuria Madrasha</p>
                     <p className="font-sans">2021 - 2024</p>
-                    <p>GPA: Running</p>
+                    <p>GPA: 4.00 (A+)</p>
                 </div>
             </div>
             <div className="flex  gap-2 pt-3">
