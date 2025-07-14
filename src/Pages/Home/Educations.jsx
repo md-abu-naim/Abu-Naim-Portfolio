@@ -39,3 +39,5 @@ const Educations = () => {
 };
 
 export default Educations;
+
+

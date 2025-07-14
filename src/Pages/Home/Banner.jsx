@@ -1,5 +1,4 @@
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import img from '../../assets/file.png'
 
 const Banner = () => {
     const fileID = '18RFkRvRDoaLLeoGlZt5KMkMtxThjTSqC'
@@ -8,18 +7,22 @@ const Banner = () => {
     const handleDownload = () => {
         const a = document.createElement('a');
         a.href = downloadURL;
-        a.download = 'yourfile.pdf'; // You can set a custom filename here
+        a.download = 'yourfile.pdf';
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
     };
     return (
         <div>
-            <section className=" text-white  ">
+            <section className=" text-white bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900  ">
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
-                    <div className="flex flex-col justify-center p-6 text-center rounded-sm  lg:text-left">
-                        <h1 className="md:text-3xl text-xl mt-8 md:mt-0 font-bold md:leading-[50px]">Hello! Welcome <br /> I’m <span className='text-[#C39C5D] md:text-5xl text-4xl uppercase'>Abu Naim</span> </h1>
-                        <p className="mt-4 md:w-[550px] mx-auto ">I am Abu Naim. I am a frontend developer. I create website with my skills and expertise which will help to cool your eyes. And I also have idea about backend like Node.js Express.js MongoDB</p>
+                    <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:text-left">
+                        <p className="text-gray-400 uppercase tracking-widest mb-2 text-sm md:text-base">Hello,</p>
+                        <h1 className="md:text-5xl text-4xl font-bold mt-0 uppercase text-[#C39C5D]">Mohammad Abu Naim</h1>
+                        <p className="text-white text-xl mt-2 md:text-2xl font-semibold">I'm a MERN Stack Developer</p>
+
+
+
                         <div className="flex gap-4 mt-4 flex-col md:flex-row items-center justify-center lg:justify-start">
                             <div className="flex gap-4 items-center justify-center">
                                 <a href="https://www.linkedin.com/in/md-abu-naim/" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
@@ -61,8 +64,110 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
-                        <img src={img} alt="" className="object-contain  h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
+
+                    <div className="lg:flex justify-center">
+                        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] rounded-lg border bg-gradient-to-r to-[#0a0d37]">
+                            <div className="flex flex-row">
+                                <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
+                                <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
+                            </div>
+                            <div className="px-4 lg:px-8 py-5">
+                                <div className="flex flex-row space-x-2">
+                                    <div className="h-3 w-3 rounded-full bg-red-400"></div>
+                                    <div className="h-3 w-3 rounded-full bg-orange-400"></div>
+                                    <div className="h-3 w-3 rounded-full bg-green-200"></div>
+                                </div>
+                            </div>
+                            <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+                                <code className="font-mono text-xs md:text-sm lg:text-base">
+                                    <div className="blink">
+                                        <span className="mr-2 text-pink-500">const</span>
+                                        <span className="mr-2 text-white">coder</span>
+                                        <span className="mr-2 text-pink-500">=</span>
+                                        <span className="text-gray-400">{"{"}</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
+                                        <span className="text-gray-400">{`'`}</span>
+                                        <span className="text-amber-300">Mohammad Abu Naim</span>
+                                        <span className="text-gray-400">{`',`}</span>
+                                    </div>
+                                    <div className="ml-4 lg:ml-8 mr-2">
+                                        <span className=" text-white">skills:</span>
+                                        <span className="text-gray-400">{`['`}</span>
+                                        <span className="text-amber-300">React</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">Express</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">MongoDB</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">Node JS</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">JavaScript</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">Tailwind CSS</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">CSS3</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+                                        <span className="text-amber-300">HTML5</span>
+                                        <span className="text-gray-400">{"', '"}</span>
+
+                                    </div>
+                                    <div>
+                                        <span className="ml-4 lg:ml-8 mr-2 text-white">
+                                            hardWorker:
+                                        </span>
+                                        <span className="text-orange-400">true</span>
+                                        <span className="text-gray-400">,</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-4 lg:ml-8 mr-2 text-white">
+                                            quickLearner:
+                                        </span>
+                                        <span className="text-orange-400">true</span>
+                                        <span className="text-gray-400">,</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-4 lg:ml-8 mr-2 text-green-400">
+                                            hireable:
+                                        </span>
+                                        <span className="text-orange-400">function</span>
+                                        <span className="text-gray-400">{"() {"}</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-8 lg:ml-16 mr-2 text-orange-400">
+                                            return
+                                        </span>
+                                        <span className="text-gray-400">{`(`}</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                                        <span className="mr-2 text-white">hardWorker</span>
+                                        <span className="text-amber-300">&amp;&amp;</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                                        <span className="mr-2 text-white">quickLearner</span>
+                                        <span className="text-amber-300">&amp;&amp;</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                                        <span className="mr-2 text-white">skills.length</span>
+                                        <span className="mr-2 text-amber-300">&gt;=</span>
+                                        <span className="text-orange-400">5</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span>
+                                    </div>
+                                    <div>
+                                        <span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span>
+                                    </div>
+                                    <div>
+                                        <span className="text-gray-400">{`};`}</span>
+                                    </div>
+                                </code>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
