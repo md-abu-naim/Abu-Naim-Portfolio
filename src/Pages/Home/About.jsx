@@ -14,6 +14,7 @@
 // };
 
 // export default About;
+import img from '/assets/file.png';
 
 const About = () => {
     return (
@@ -35,7 +36,7 @@ const About = () => {
                 {/* Right Image */}
                 <div className="w-full flex justify-center">
                     <div className="w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden shadow-2xl border-4 border-[#C39C5D]">
-                        <img src="" alt="About Abu Naim" className="w-full h-full object-cover" />
+                        <img src={img} alt="About Abu Naim" className="w-full h-full object-cover" />
                     </div>
                 </div>
             </div>

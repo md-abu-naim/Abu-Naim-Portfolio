@@ -2,7 +2,7 @@ import { FaEye } from "react-icons/fa";
 
 const Educations = () => {
     return (
-        <div id="educations" className="md:px-24 mt-16">
+        <div id="educations" className="md:px-24 py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900">
             <h2 className="text-3xl font-bold">Educations</h2>
             <div className="flex  gap-2 pt-3">
                 <div className="border-t-4 border-[#C39C5D] w-16"></div>
