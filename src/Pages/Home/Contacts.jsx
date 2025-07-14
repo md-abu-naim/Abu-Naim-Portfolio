@@ -29,7 +29,7 @@ const Contacts = () => {
             );
     };
     return (
-        <div id='contacts' className="py-16 md:px-24">
+        <div id='contacts' className="py-16 md:px-24 bg-gray-900">
             <div className=" flex items-center justify-center">
                 <h1 className=" text-center border-b-2 border-[#C39C5D] p-2 text-3xl font-bold">Contact Me</h1>
             </div>
