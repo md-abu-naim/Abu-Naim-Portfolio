@@ -18,7 +18,12 @@ const Skills = () => {
         { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
     ];
 
-    cons
+    const tools = [
+        { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
+        { name: "GitHub", icon: <FaGithub className="text-white" /> },
+        { name: "VS Code", icon: <BiLogoVisualStudio className="text-indigo-400" /> },
+        { name: "Figma", icon: <SiNetlify className="text-green-400" /> },
+    ];
     return (
         <div>
             <section id="skills" className="bg-gray-900 text-white p-16 px-5 md:px-20">
