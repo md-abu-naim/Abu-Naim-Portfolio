@@ -27,116 +27,58 @@ const Skills = () => {
         { name: "Netlify", icon: <SiNetlify className="text-green-400" /> },
     ];
     return (
-        <div>
-            <section id="skills" className="bg-gray-900 text-white p-16 px-5 md:px-20">
-                <div className="max-w-7xl mx-auto">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-7">My Skills</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                        {/* Frontend Skills */}
-                        <div>
-                            <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Frontend Skills</h3>
-                            <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
-                                {
-                                    frontendSkills.map(skill => (
-                                        <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
-                                            <div className="text-2xl">{skill.icon}</div>
-                                            <p className="font-semibold">{skill.name}</p>
-                                        </div>
-                                    ))
-                                }
-                            </div>
+        <section id="skills" className="bg-gray-900 text-white p-16 px-5 md:px-20">
+            <div className="max-w-7xl mx-auto">
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-7">My Skills</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    {/* Frontend Skills */}
+                    <div>
+                        <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Frontend Skills</h3>
+                        <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
+                            {
+                                frontendSkills.map(skill => (
+                                    <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
+                                        <div className="text-2xl">{skill.icon}</div>
+                                        <p className="font-semibold">{skill.name}</p>
+                                    </div>
+                                ))
+                            }
                         </div>
-                        <div>
-                            <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Backend Skills</h3>
-                            <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
-                                {
-                                    backendSkills.map(skill => (
-                                        <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
-                                            <div className="text-2xl">{skill.icon}</div>
-                                            <p className="font-semibold">{skill.name}</p>
-                                        </div>
-                                    ))
-                                }
-                            </div>
+                    </div>
+
+                    {/* Backend Skills */}
+                    <div>
+                        <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Backend Skills</h3>
+                        <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
+                            {
+                                backendSkills.map(skill => (
+                                    <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
+                                        <div className="text-2xl">{skill.icon}</div>
+                                        <p className="font-semibold">{skill.name}</p>
+                                    </div>
+                                ))
+                            }
                         </div>
-                        <div>
-                            <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Tools & technologies</h3>
-                            <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
-                                {
-                                    tools.map(skill => (
-                                        <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
-                                            <div className="text-2xl">{skill.icon}</div>
-                                            <p className="font-semibold">{skill.name}</p>
-                                        </div>
-                                    ))
-                                }
-                            </div>
+                    </div>
+
+                    {/* Tools & Technologies */}
+                    <div>
+                        <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Tools & technologies</h3>
+                        <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
+                            {
+                                tools.map(skill => (
+                                    <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
+                                        <div className="text-2xl">{skill.icon}</div>
+                                        <p className="font-semibold">{skill.name}</p>
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 };
 
 export default Skills;
-
-
-// const Skills = () => {
-//     return (
-//         <section id="skills" className="bg-gray-900 text-white py-16 px-6 md:px-20">
-//             <div className="max-w-7xl mx-auto">
-//                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-//                     {/* Frontend Skills */}
-//                     {/* <div>
-//                         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-2 gap-6">
-//                             {frontendSkills.map((skill, index) => (
-//                                 <div
-//                                     key={index}
-//                                     className="bg-gray-950 hover:bg-[#222222] border border-gray-400 rounded-lg p-4 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300"
-//                                 >
-//                                     <div className="text-3xl">{skill.icon}</div>
-//                                     <p className="font-semibold">{skill.name}</p>
-//                                 </div>
-//                             ))}
-//                         </div>
-//                     </div> */}
-
-//                     {/* Backend Skills */}
-//                     <div>
-//                         <h3 className="text-xl font-semibold text-[#C39C5D] mb-4 border-b border-[#C39C5D] pb-2">Backend</h3>
-//                         {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-2 gap-6">
-//                             {backendSkills.map((skill, index) => (
-//                                 <div
-//                                     key={index}
-//                                     className="bg-[#1a1a1a] hover:bg-[#222222] border border-[#2a2a2a] rounded-lg p-4 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300"
-//                                 >
-//                                     <div className="text-3xl">{skill.icon}</div>
-//                                     <p className="font-semibold">{skill.name}</p>
-//                                 </div>
-//                             ))}
-//                         </div> */}
-//                     </div>
-
-//                     {/* Tools */}
-//                     <div className="text-center">
-//                         <h3 className="text-xl font-semibold  mb-4 border-b border-[#C39C5D] pb-2 text-white">Tools</h3>
-//                         {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-2 gap-6">
-//                             {tools.map((tool, index) => (
-//                                 <div
-//                                     key={index}
-//                                     className="bg-[#1a1a1a] hover:bg-[#222222] border border-[#2a2a2a] rounded-lg p-4 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300"
-//                                 >
-//                                     <div className="text-3xl">{tool.icon}</div>
-//                                     <p className="font-semibold">{tool.name}</p>
-//                                 </div>
-//                             ))}
-//                         </div> */}
-//                     </div>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// };
-
-// export default Skills;
