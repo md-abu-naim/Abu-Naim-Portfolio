@@ -2,12 +2,12 @@ import { FaEye } from "react-icons/fa";
 
 const Educations = () => {
     return (
-        <section id="educations" className="md:px-24 py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900">
+        <section id="educations" className="md:px-24 py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-400">
             <h2 className="text-3xl font-bold">Educations</h2>
             <div className="flex  gap-2 pt-3">
                 <div className="border-t-4 border-gray-400 w-20 mb-4"></div>
                 <div>
-                    <h3 className="text-xl text-[#C39C5D] font-medium">M.A. (Masters) Certificate</h3>
+                    <h3 className="text-xl text-white font-medium">M.A. (Masters) Certificate</h3>
                     <p>AL-Jamiatul Ahliya Darul Uloom Muinul Islam</p>
                     <p className="font-sans">2025 - 2026</p>
                     <p>GPA: Running</p>
