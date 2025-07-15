@@ -30,7 +30,7 @@ const Projects = () => {
                             <div className='flex flex-wrap gap-3'>
                                 <a href={p.url} target='_blank' className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Live Site</a>
                                 <a href={p.client} target='_blank'  className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Source Code</a>
-                                <Link to={`details/${p.name}`} className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Details</Link>
+                                <Link to={`/${p.name}`} className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Details</Link>
                             </div>
                         </div>
                     </div>
