@@ -22,7 +22,9 @@ const Skills = () => {
         { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
         { name: "GitHub", icon: <FaGithub className="text-white" /> },
         { name: "VS Code", icon: <BiLogoVisualStudio className="text-indigo-400" /> },
-        { name: "Figma", icon: <SiNetlify className="text-green-400" /> },
+        { name: "Figma", icon: <FaFigma className="text-pink-400" /> },
+        { name: "Vercel", icon: <SiVercel className="text-white" /> },
+        { name: "Netlify", icon: <SiNetlify className="text-green-400" /> },
     ];
     return (
         <div>
