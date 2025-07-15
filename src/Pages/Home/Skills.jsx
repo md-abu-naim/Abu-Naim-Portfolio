@@ -1,13 +1,13 @@
-import { FaCss3Alt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
-import { RiFirebaseFill } from "react-icons/ri";
-import { SiExpress, SiJavascript, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { BiLogoVisualStudio } from "react-icons/bi";
+import { FaCss3Alt, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiNetlify, SiTailwindcss, SiVercel } from "react-icons/si";
 
 const Skills = () => {
     const frontendSkills = [
+        { name: "React.js", icon: <FaReact className="text-cyan-400" /> },
         { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
         { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
         { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-        { name: "React.js", icon: <FaReact className="text-cyan-400" /> },
         { name: "Tailwind CSS", icon: <SiTailwindcss className="text-sky-400" /> },
     ];
 
@@ -15,8 +15,10 @@ const Skills = () => {
         { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
         { name: "Express.js", icon: <SiExpress className="text-gray-300" /> },
         { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
-        { name: "Firebase", icon: <RiFirebaseFill className="text-green-400" /> },
+        { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
     ];
+
+    cons
     return (
         <div>
             <section id="skills" className="bg-gray-900 text-white p-16 px-5 md:px-20">
@@ -51,10 +53,10 @@ const Skills = () => {
                             </div>
                         </div>
                         <div>
-                            <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Frontend Skills</h3>
+                            <h3 className="text-xl font-semibold mb-4 border-b border-gray-400 text-center">Tools & technologies</h3>
                             <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-6">
                                 {
-                                    frontendSkills.map(skill => (
+                                    tools.map(skill => (
                                         <div key={skill.name} className="bg-gray-950 hover:bg-gray-900 border border-gray-400 rounded-lg p-3 flex items-center justify-center gap-2 text-[#C39C5D] transition duration-300">
                                             <div className="text-2xl">{skill.icon}</div>
                                             <p className="font-semibold">{skill.name}</p>
