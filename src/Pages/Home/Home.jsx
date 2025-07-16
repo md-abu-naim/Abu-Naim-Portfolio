@@ -15,7 +15,7 @@ const Home = () => {
             once: false,
             duration: 1000,
             delay: 100,
-            offset:120,
+            offset:100,
             easing: 'ease-in-out',
         })
     },[])
