@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
 
 const Navber = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,7 +24,9 @@ const Navber = () => {
 
                     <Link to='/' className="flex flex-col leading-none">
                         <span className="text-2xl md:text-3xl font-bold tracking-wide">Mohammad Abu Naim</span>
-                        <small className="text-sm font-medium text-gray-400">Full-Stack Web Developer</small>
+                        <small className="text-sm font-medium text-gray-400">
+                             <Typewriter words={['Web Developer', 'Frontend Developer', 'Full-Stack Developer', 'MERN Stack Developer']} loop={true} cursor cursorStyle={'|'} typeSpeed={70} deleteSpeed={50} delaySpeed={1500} />
+                        </small>
                     </Link>
                 </div>
 
