@@ -24,7 +24,17 @@ const Projects = () => {
                             <img src={p.image} alt="" className='w-full h-56 object-cover' />
                             <div className='p-5'>
                                 <h3 className='text-xl font-semibold text-white'>{p.name}</h3>
-                                <p className='text-gray-400 mt-2 mb-5'>{p.description}</p>
+                                <p className='text-gray-400 mt-2 mb-3'>{p.description}</p>
+                                <div className='flex flex-wrap gap-2 mb-3'>
+                                    {
+                                        p?.technologies?.slice(0, 3).map((technology, i) => (
+                                            <span key={i} className='bg-gray-800 border border-gray-400 text-sm rounded-full px-3 py-1'>{technology}</span>
+                                        ))
+                                    }
+                                    {
+                                        p.technologies?.length > 3 && <small className='text-md pt-2'>.....</small>
+                                    }
+                                </div>
                                 <div className='flex gap-3'>
                                     <a href={p.url} target='_blank' className="hidden lg:block px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Live Site</a>
                                     <a href={p.client} target='_blank' className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Source Code</a>

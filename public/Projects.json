@@ -34,6 +34,7 @@
         "technologies": [
             "React.js",
             "Node.js",
+            "Stripe",
             "MongoDB",
             "Express.js",
             "JWT",
@@ -91,7 +92,7 @@
     },
     {
         "name": "GYM-FIT",
-        "image": "https://i.postimg.cc/P53n1ww1/gym-fit.png",
+        "image": "https://i.postimg.cc/1z0HbXVy/GymFit.png",
         "url": "https://gym-fit-sigma.vercel.app/",
         "client": "https://github.com/md-abu-naim/GYM-FIT",
         "description": "GYM-FIT is a fitness-focused web app built with Next.js, offering workout plan listings and personal routine tracking for gym enthusiasts.",
