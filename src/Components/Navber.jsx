@@ -25,7 +25,7 @@ const Navber = () => {
                     <Link to='/' className="flex flex-col leading-none">
                         <span className="text-2xl md:text-3xl font-bold tracking-wide">Mohammad Abu Naim</span>
                         <small className="text-sm font-medium text-gray-400">
-                             <Typewriter words={['Web Developer', 'Frontend Developer', 'Full-Stack Developer', 'MERN Stack Developer']} loop={true} cursor cursorStyle={'|'} typeSpeed={70} deleteSpeed={50} delaySpeed={1500} />
+                            <Typewriter words={['Web Developer', 'Frontend Developer', 'Full-Stack Developer', 'MERN Stack Developer']} loop={true} cursor cursorStyle={'|'} typeSpeed={70} deleteSpeed={50} delaySpeed={1500} />
                         </small>
                     </Link>
                 </div>
