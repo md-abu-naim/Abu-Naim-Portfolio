@@ -19,7 +19,7 @@ const ProjectDetails = () => {
         <section>
 
             <section className='bg-gray-900 text-gray-100 min-h-screen px-4 md:px-10 py-16'>
-                <div className='grid md:grid-cols-2 border border-gray-400 rounded-xl p-5 gap-10 items-center max-w-7xl mx-auto'>
+                <div className='grid md:grid-cols-1 lg:grid-cols-2 border border-gray-400 rounded-xl p-5 gap-10 items-center max-w-7xl mx-auto'>
                     <div>
                         <img src={image} alt={name} className='w-full h-auto rounded-xl border border-gray-700' />
                     </div>
@@ -46,7 +46,7 @@ const ProjectDetails = () => {
                             </div>
                         </div>
                         <div className='flex gap-3 mt-6'>
-                            <a href={url} target='_blank' className="hidden lg:block px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Live Site</a>
+                            <a href={url} target='_blank' className=" px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Live Site</a>
                             <a href={client} target='_blank' className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Client Code</a>
                             <a href={server} className="px-5 py-2 font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Server Code</a>
                         </div>
