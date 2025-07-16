@@ -1,6 +1,7 @@
 import { FaDownload, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaEye } from "react-icons/fa6";
 import { Typewriter } from "react-simple-typewriter";
+import 'aos/dist/aos.css';
 
 const Banner = () => {
     const fileID = '18RFkRvRDoaLLeoGlZt5KMkMtxThjTSqC'
@@ -15,7 +16,7 @@ const Banner = () => {
         document.body.removeChild(a);
     };
     return (
-        <section className=" text-white bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900  ">
+        <section  data-aos="fade-up" className=" text-white bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900  ">
             <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
                 <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:text-left">
                     <p className="text-gray-300 uppercase tracking-widest mb-2 text-sm md:text-base">Hello,</p>

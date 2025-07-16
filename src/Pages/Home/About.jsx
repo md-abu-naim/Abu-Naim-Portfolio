@@ -1,7 +1,8 @@
+import 'aos/dist/aos.css';
 
 const About = () => {
     return (
-        <section id="about" className="bg-gray-900 text-white px-4 py-16 md:px-20">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" id="about" className="bg-gray-900 text-white px-4 py-16 md:px-20">
             <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 {/* Content */}
                 <div>

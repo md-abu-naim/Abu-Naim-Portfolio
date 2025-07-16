@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 import { TbBrandFiverr } from "react-icons/tb";
 import { SiUpwork } from "react-icons/si";
+import 'aos/dist/aos.css';
 
 const Contacts = () => {
     const form = useRef();
@@ -29,7 +30,7 @@ const Contacts = () => {
             );
     };
     return (
-        <div id='contacts' className="py-16 md:px-24 bg-gray-900 text-gray-400">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" id='contacts' className="py-16 md:px-24 bg-gray-900 text-gray-400">
             <div className=" flex items-center justify-center">
                 <h1 className="text-3xl md:text-4xl text-center border-b-2 border-gray-400 p-2 font-bold mb-7 text-white">Contact Me</h1>
             </div>
@@ -147,7 +148,7 @@ const Contacts = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

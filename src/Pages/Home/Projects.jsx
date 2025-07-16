@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -12,7 +13,7 @@ const Projects = () => {
             })
     }, [])
     return (
-        <section id='projects' className='bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-16 px-6 md:px-20'>
+        <section data-aos="fade-up" id='projects' className='bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white py-16 px-6 md:px-20'>
             <div className=" flex items-center justify-center">
                 <h1 className="text-3xl md:text-4xl text-center border-b-2 border-gray-400 p-2 font-bold mb-7">Latest Projects</h1>
             </div>

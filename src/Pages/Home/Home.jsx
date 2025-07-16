@@ -5,14 +5,26 @@ import Educations from "./Educations";
 import Footer from "../../Components/Footer";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Home = () => {
+
+    useEffect(() => {
+        Aos.init({
+            once: false,
+            duration: 1000,
+            delay: 100,
+            offset:120,
+            easing: 'ease-in-out',
+        })
+    },[])
     return (
-        <div className="">
+        <div>
             <Banner />
             <About />
-            <Educations />
             <Skills />
+            <Educations />
             <Projects />
             <Contacts />
             <Footer />

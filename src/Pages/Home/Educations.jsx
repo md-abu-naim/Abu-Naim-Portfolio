@@ -1,8 +1,9 @@
 import { FaEye } from "react-icons/fa";
+import 'aos/dist/aos.css';
 
 const Educations = () => {
     return (
-        <section id="educations" className="px-4 md:px-24 py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-400">
+        <section data-aos="fade-up" id="educations" className="px-4 md:px-24 py-16 bg-gray-900">
             <h2 className="text-3xl font-bold text-white">Educations</h2>
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="flex gap-2 pt-3">

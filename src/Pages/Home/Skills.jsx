@@ -1,6 +1,7 @@
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { FaCss3Alt, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { SiExpress, SiFirebase, SiJavascript, SiMongodb, SiNetlify, SiTailwindcss, SiVercel } from "react-icons/si";
+import 'aos/dist/aos.css';
 
 const Skills = () => {
     const frontendSkills = [
@@ -27,7 +28,7 @@ const Skills = () => {
         { name: "Netlify", icon: <SiNetlify className="text-green-400" /> },
     ];
     return (
-        <section id="skills" className="bg-gray-900 text-white p-16 px-5 md:px-20">
+        <section data-aos="fade-up" data-aos-easing="ease-in-out" id="skills" className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white p-16 px-5 md:px-20">
             <div className="max-w-7xl mx-auto">
                 <div className=" flex items-center justify-center">
                     <h1 className="text-3xl md:text-4xl text-center border-b-2 border-gray-400 p-2 font-bold mb-7">My Skills</h1>
