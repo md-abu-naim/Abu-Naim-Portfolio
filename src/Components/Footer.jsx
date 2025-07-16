@@ -6,8 +6,8 @@ const Footer = () => {
                 <h1 className=" text-center p-2 text-2xl text- font-bold">MOHAMMAD ABU NAIM</h1>
             </div>
             <footer className="footer footer-center">
-                <aside>
-                    <p>Copyright © ${new Date().getFullYear()} - All right reserved by <span className="text-[#C39C5D]">Mohammad Abu Naim</span></p>
+                <aside className="flex text-gray-400">
+                    © {new Date().getFullYear()} Designed & Developed by <a href="https://www.linkedin.com/in/md-abu-naim/" target="_blank" className="text-blue-500 underline">Mohammad Abu Naim</a>
                 </aside>
             </footer>
         </footer>

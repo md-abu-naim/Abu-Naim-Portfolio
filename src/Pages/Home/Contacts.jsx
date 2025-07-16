@@ -29,43 +29,45 @@ const Contacts = () => {
             );
     };
     return (
-        <div id='contacts' className="py-16 md:px-24 bg-gray-900">
+        <div id='contacts' className="py-16 md:px-24 bg-gray-900 text-gray-400">
             <div className=" flex items-center justify-center">
-                <h1 className=" text-center border-b-2 border-[#C39C5D] p-2 text-3xl font-bold">Contact Me</h1>
+                <h1 className="text-3xl md:text-4xl text-center border-b-2 border-gray-400 p-2 font-bold mb-7 text-white">Contact Me</h1>
             </div>
             <div className="flex flex-col lg:flex-row mt-8">
                 <div className=" p-4 mt-6 space-y-6 lg:w-1/2 text-center lg:text-start">
-                    <div><h3 className="text-[#C39C5D] text-2xl">Contact Me For More Info</h3>
+                    <div><h3 className="text-white text-2xl">Contact Me For More Info</h3>
                         <p >I’m currently available to take on new projects, so feel free to send me a message about anything you’d like to discuss. You can contact me anytime, 24/7.</p></div>
                     <div className="flex flex-col items-center lg:items-start justify-center space-y-4 lg:justify-start">
                         <p className="flex items-center gap-2 md:text-xl"><FaLocationDot /> <span>Senbag, Noakhali, Bangladesh</span></p>
-                        <a href="mailto:mohammadnaim.dev@gmail.com" className="flex items-center gap-2 md:text-xl"><MdEmail /> <span className="underline">mohammadnaim.dev@gmail.com</span> </a>
-                        <a href="https://wa.me/+8801882585833" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 md:text-xl font-sans"><MdAddCall /> <span className="underline">+8801882585833</span> </a>
+                        <a href="mailto:mohammadnaim.dev@gmail.com" className="flex items-center gap-2 md:text-xl"><MdEmail /> <span className="underline text-blue-500">mohammadnaim.dev@gmail.com</span> </a>
+                        <a href="https://wa.me/+8801882585833" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 md:text-xl font-sans"><MdAddCall /> <span className="underline text-blue-500">+8801882585833</span> </a>
                     </div>
 
-                    <h3 className="text-xl text-[#C39C5D]">Follow Me</h3>
+                    <h3 className="text-xl text-white">Follow Me</h3>
                     <div className="space-x-4 space-y-4">
                         <div className="space-x-4">
                             <a href="https://www.linkedin.com/in/md-abu-naim/" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
+                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-black to-gray-500 group-hover:opacity-100"></span>
                                 <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                 <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
                                 <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
                                 <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                                <span className="relative text-2xl"><FaLinkedin /></span></a >
+                                <span className="relative text-2xl"><FaLinkedin /></span>
+                            </a >
                             <a href="https://github.com/md-abu-naim" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
+                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-black to-gray-500 group-hover:opacity-100"></span>
                                 <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                 <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 right-0 w-4 h-full bg-gradient-to-l from-white to-transparent opacity-5"></span>
                                 <span className="absolute inset-0 w-full h-full border border-white rounded-md opacity-10"></span>
                                 <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
-                                <span className="relative text-2xl"><FaGithub /></span></a >
+                                <span className="relative text-2xl"><FaGithub /></span>
+                            </a >
                             <a href="https://www.facebook.com/farhanadnan.farabi.5" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
+                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-black to-gray-500 group-hover:opacity-100"></span>
                                 <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                 <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
@@ -76,8 +78,8 @@ const Contacts = () => {
                             </a >
                         </div>
                         <div className="space-x-4">
-                            <a href="https://www.fiverr.com/naimwebdev" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
+                            <a href="https://www.fiverr.com/s/6Y3ZQQA" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
+                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-black to-gray-500 group-hover:opacity-100"></span>
                                 <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                 <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
@@ -86,8 +88,8 @@ const Contacts = () => {
                                 <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56 opacity-5"></span>
                                 <span className="relative text-2xl"><TbBrandFiverr /></span>
                             </a >
-                            <a href="https://www.upwork.com/freelancers/~018907ca57906be13c?viewMode=1" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
+                            <a href="https://www.upwork.com/freelancers/~018907ca57906be13c" target="_blank" className="relative w-9 inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
+                                <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-black to-gray-500 group-hover:opacity-100"></span>
                                 <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                                 <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
                                 <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>
@@ -99,8 +101,8 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
-                <div className="p-5 lg:border-l-2 border-[#C39C5D] text-center lg:text-start">
-                    <h3 className="text-[#C39C5D] text-2xl">Let’s work together!</h3>
+                <div className="p-5 lg:border-l-2 border-gray-400 text-center lg:text-start">
+                    <h3 className="text-white text-2xl">Let’s work together!</h3>
                     <p>I design and code beautifully simple things, and I love what I do. Just simple like that!</p>
                     <form ref={form} onSubmit={sendEmail} className="mt-4">
                         <div className=" ">
@@ -133,7 +135,7 @@ const Contacts = () => {
                         </div>
 
                         <button className="relative w-full inline-flex items-center justify-center px-6 py-3 overflow-hidden font-bold text-white rounded-md shadow-2xl group">
-                            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-[#c59d5f] via-[#1B1616] to-[#c59d5f] group-hover:opacity-100"></span>
+                            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out opacity-0 bg-gradient-to-br from-gray-500 via-black to-gray-500 group-hover:opacity-100"></span>
                             <span className="absolute top-0 left-0 w-full bg-gradient-to-b from-white to-transparent opacity-5 h-1/3"></span>
                             <span className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white to-transparent opacity-5"></span>
                             <span className="absolute bottom-0 left-0 w-4 h-full bg-gradient-to-r from-white to-transparent opacity-5"></span>

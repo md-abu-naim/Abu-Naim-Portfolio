@@ -29,7 +29,9 @@ const Skills = () => {
     return (
         <section id="skills" className="bg-gray-900 text-white p-16 px-5 md:px-20">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-7">My Skills</h2>
+                <div className=" flex items-center justify-center">
+                    <h1 className="text-3xl md:text-4xl text-center border-b-2 border-gray-400 p-2 font-bold mb-7">My Skills</h1>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     {/* Frontend Skills */}
                     <div>
