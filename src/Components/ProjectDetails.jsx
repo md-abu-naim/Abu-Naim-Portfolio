@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 const ProjectDetails = () => {
     const [projects, setProjects] = useState([])
     const { name } = useParams()
@@ -86,53 +86,10 @@ const ProjectDetails = () => {
                                 }
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="bg-gray-900 text-gray-100 min-h-screen px-4 md:px-10 py-16">
-                <div className="grid md:grid-cols-2 border border-gray-400 rounded-xl p-5 gap-10 items-center max-w-7xl mx-auto">
-                    {/* Right: Content */}
-                    <div>
-                        <h1 className="text-4xl font-bold mb-4 border-b-2 inline-block border-yellow-500 pb-1">
-                            {name}
-                        </h1>
-                        <p className="text-gray-300 mb-6 text-justify">{description}</p>
-
-                        <div className="mb-6">
-                            <h2 className="text-xl font-semibold mb-2 text-yellow-400">Key Features:</h2>
-                            {/* <ul className="list-disc list-inside space-y-1 text-gray-400">
-                                {features.map((feature, idx) => (
-                                    <li key={idx}>{feature}</li>
-                                ))}
-                            </ul> */}
-                        </div>
-
-                        <div className="mb-6">
-                            <h2 className="text-xl font-semibold mb-2 text-yellow-400">Technologies:</h2>
-                            {/* <div className="flex flex-wrap gap-2">
-                                {technologies.map((tech, idx) => (
-                                    <span key={idx} className="px-3 py-1 bg-gray-800 border border-yellow-600 text-sm rounded-full">
-                                        {tech}
-                                    </span>
-                                ))}
-                            </div> */}
-                        </div>
-
-                        <div className="flex flex-wrap gap-3 mt-6">
-                            <a href={url} target="_blank" rel="noreferrer" className="px-5 py-2 bg-yellow-600 text-black font-semibold rounded hover:bg-yellow-500 transition">
-                                Live Site
-                            </a>
-                            {client && (
-                                <a href={client} target="_blank" rel="noreferrer" className="px-5 py-2 border border-yellow-600 rounded hover:bg-yellow-700 transition">
-                                    Client Code
-                                </a>
-                            )}
-                            {server && (
-                                <a href={server} target="_blank" rel="noreferrer" className="px-5 py-2 border border-yellow-600 rounded hover:bg-yellow-700 transition">
-                                    Server Code
-                                </a>
-                            )}
+                        <div className='flex gap-3 mt-6'>
+                            <a href={url} target='_blank' className="hidden lg:block px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Live Site</a>
+                            <a href={client} target='_blank' className="px-4 py-2 text-sm font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Client Code</a>
+                            <a href={server} className="px-5 py-2 font-semibold border border-gray-500 text-white rounded hover:bg-gray-950 hover:text-white transition">Server Code</a>
                         </div>
                     </div>
                 </div>
