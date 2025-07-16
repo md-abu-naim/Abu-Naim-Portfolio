@@ -17,7 +17,7 @@ const About = () => {
 
                 {/* Image */}
                 <div className="w-full flex justify-center">
-                    <div className="w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden shadow-2xl border-4 border-gray-400">
+                    <div className="w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden shadow-2xl border-4 border-gray-400 ">
                         <img src='/assets/Naim.png' alt="About Abu Naim" className="w-full h-full object-cover" />
                     </div>
                 </div>
