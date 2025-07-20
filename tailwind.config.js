@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        shine: {
+          '0%': { left: '-50%' },
+          '100%': { left: '150%' },
+        },
+      },
+      animation: {
+        shine: 'shine 3s linear infinite',
+      },
+    },
   },
   plugins: [require('daisyui')],
 }

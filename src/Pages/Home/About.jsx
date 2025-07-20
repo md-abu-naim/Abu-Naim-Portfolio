@@ -1,4 +1,5 @@
 import 'aos/dist/aos.css';
+import './index.css'
 
 const About = () => {
     return (
@@ -17,8 +18,9 @@ const About = () => {
                 </div>
 
                 {/* Image */}
-                <div className="w-full flex justify-center">
-                    <div className="w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden shadow-2xl border-4 border-gray-400 ">
+                <div className="w-full  flex justify-center">
+                    <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-xl overflow-hidden shadow-2xl border-4 border-gray-400 ">
+                        <div className="absolute top-0 -left-1/2 w-1/2 h-full bg-gradient-to-r from-transparent via-white/40 to-transparent blur-md animate-shine rounded-xl pointer-events-none"></div>
                         <img src='/assets/Naim.png' alt="About Abu Naim" className="w-full h-full object-cover" />
                     </div>
                 </div>

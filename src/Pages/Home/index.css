@@ -1,0 +1,35 @@
+.rotating-border {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 2px solid #00f7ff; /* static border */
+}
+
+.rotating-border::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -50%;  /* শুরুটা বাম থেকে বাহিরে */
+  width: 50%;   /* ঝলকানির চওড়া */
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  filter: blur(4px);
+  animation: shine 3s linear infinite;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes shine {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 150%;
+  }
+}
