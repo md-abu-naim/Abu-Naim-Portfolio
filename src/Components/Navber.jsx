@@ -35,7 +35,7 @@ const Navber = () => {
                     {
                         navLinks.map(link => (
                             <li key={link.href}>
-                                <a href={link.href} className="hover:text-gray-400 transition-colors duration-300">{link.label}</a>
+                                <a href={link.href} className='hover:text-gray-400 transition-colors duration-300'>{link.label}</a>
                             </li>
                         ))
                     }

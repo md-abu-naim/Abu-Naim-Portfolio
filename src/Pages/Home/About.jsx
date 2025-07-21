@@ -1,5 +1,4 @@
 import 'aos/dist/aos.css';
-import './index.css'
 
 const About = () => {
     return (
